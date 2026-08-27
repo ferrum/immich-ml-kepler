@@ -9,4 +9,6 @@ Machine Learning module for [Immich](https://github.com/immich-app/immich) compa
 Windows machine with GT 730 correctly works in a test environment. This proves that it is possible to perform machine learning tagging using Immich's `ViT-B-32__openai` on legacy hardware. A package will soon be provided.
 
 Test with a picture of my cat:
+
+
 <img src="/demos/windows_test.jpg" alt="Windows Test">
