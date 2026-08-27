@@ -123,6 +123,3 @@ Screenshots:
 <img src="/demos/windows_test_3.jpg" alt="Windows Test 3">
 <img src="/demos/windows_test_2.jpg" alt="Windows Test 2">
 <img src="/demos/windows_test.jpg" alt="Windows Test 1">
-
-## Transparency
-Most of the code, although manually vetted, has been AI-generated. Always check what you're executing.
