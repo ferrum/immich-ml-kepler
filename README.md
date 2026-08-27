@@ -12,3 +12,5 @@ Test with a picture of my cat:
 
 
 <img src="/demos/windows_test.jpg" alt="Windows Test">
+
+<img src="/demos/windows_test_2.jpg" alt="Windows Test 2">
