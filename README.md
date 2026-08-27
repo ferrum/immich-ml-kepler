@@ -54,7 +54,7 @@ Provided per platform, because these are compiled binaries:
 | Python interpreter | 3.7 x64 | the only version the ONNX Runtime wheel targets |
 | ONNX Runtime GPU wheel | 1.6.0 | last release built against CUDA 10.2 |
 | cuDNN | 8.0.3 | required by the ONNX Runtime CUDA execution provider |
-| zlib (`zlibwapi.dll`, Windows) | — | undocumented cuDNN 8 dependency; without it the CUDA provider fails to initialize |
+| zlib (`zlibwapi.dll`, Windows) | ? | undocumented cuDNN 8 dependency; without it the CUDA provider fails to initialize |
 | Python dependency wheels | see `requirements.txt` | shipped locally so installation works fully offline |
 
 ### Deliberately not bundled
