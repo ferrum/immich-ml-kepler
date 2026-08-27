@@ -53,14 +53,14 @@ Provided per platform, because these are compiled binaries:
 |---|---|---|
 | Python interpreter | 3.7 x64 | the only version the ONNX Runtime wheel targets |
 | ONNX Runtime GPU wheel | 1.6.0 | last release built against CUDA 10.2 |
-| CUDA runtime libraries | 10.2 | last CUDA supporting Kepler; only `cudart`, `cublas`, `cufft`, `curand`, `cusolver`, `cusparse` are installed |
 | cuDNN | 8.0.3 | required by the ONNX Runtime CUDA execution provider |
 | zlib (`zlibwapi.dll`, Windows) | — | undocumented cuDNN 8 dependency; without it the CUDA provider fails to initialize |
 | Python dependency wheels | see `requirements.txt` | shipped locally so installation works fully offline |
 
 ### Deliberately not bundled
- 
-The NVIDIA display driver is not bundled. The CUDA 10.2 installer contains a 2019-era driver. Installing it would downgrade the driver for the entire machine. The installer explicitly selects individual CUDA components so the driver is never touched.
+
+- **Important** CUDA 10.2 is not bundled for EULA reasons. You have to manually [download](https://developer.nvidia.com/cuda-10.2-download-archive?target_os=Windows&target_arch=x86_64&target_version=10&target_type=exelocal) it and place it in the `installers` folder. For Windows its name is `cuda_10.2.89_441.22_win10.exe`. 10.2 is the last CUDA supporting Kepler; only `cudart`, `cublas`, `cufft`, `curand`, `cusolver`, `cusparse` are installed
+- The NVIDIA display driver is not bundled. The CUDA 10.2 installer contains a 2019-era driver. Installing it would downgrade the driver for the entire machine. The installer explicitly selects individual CUDA components so the driver is never touched.
  
 ## Requirements
  
