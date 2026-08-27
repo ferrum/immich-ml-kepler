@@ -1,0 +1,19 @@
+numpy==1.21.6
+protobuf==3.20.3
+
+fastapi==0.103.2
+uvicorn==0.22.0
+python-multipart==0.0.6
+
+ftfy==6.1.1
+regex==2023.12.25
+Pillow==9.5.0
+
+# ONNX Runtime GPU 1.6.0 va installato separatamente
+# dal wheel legacy Python 3.7 / Windows x64:
+#
+# onnxruntime_gpu-1.6.0-cp37-cp37m-win_amd64.whl
+#
+# Non viene indicato come normale dipendenza PyPI
+# perché quella specifica build GPU legacy non è
+# più disponibile normalmente tramite pip.
